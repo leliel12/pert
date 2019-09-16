@@ -107,7 +107,7 @@ def estimate(o, p, m):
     """
     es, stds = np.sum(expect(o, p, m)), np.sum(std(o, p))
     return np.array([
-        [es-stds if es-stds > 0 else 0, es+stds*2],
-        [es-stds*2 if es-stds*2 > 0 else 0, es+stds*2],
-        [es-stds*3 if es-stds*3 > 0 else 0, es+stds*3],
+        [es - stds if es - stds > 0 else 0, es + stds * 2],
+        [es - stds * 2 if es - stds * 2 > 0 else 0, es + stds * 2],
+        [es - stds * 3 if es - stds * 3 > 0 else 0, es + stds * 3],
     ])
