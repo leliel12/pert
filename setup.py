@@ -47,6 +47,7 @@ def do_setup():
         version="2019.8",
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
+        long_description_content_type='text/markdown',
         author="Juan BC",
         author_email="jbc.develop@gmail.com",
         url="https://github.com/leliel12/pert",
