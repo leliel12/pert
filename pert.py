@@ -10,9 +10,10 @@
 # DOCS
 # =============================================================================
 
-"""The program (or project) evaluation and review technique (PERT) is a
-statistical tool used in project management, which was designed to analyze and
-represent the tasks involved in completing a given project.
+"""The program (or project) evaluation and review technique (PERT).
+
+Pert is a statistical tool used in project management, which was designed to
+analyze and represent the tasks involved in completing a given project.
 
 First developed by the United States Navy in the 1958, it is commonly used in
 conjunction with the critical path method in the year 1957 (CPM).
@@ -38,7 +39,9 @@ import numpy as np
 
 
 def expect(o, p, m):
-    """expected time: the best estimate of the time required to accomplish a
+    """Caclulate the expected time.
+
+    The best estimate of the time required to accomplish a
     task, accounting for the fact that things don't always proceed as normal
     (the implication being that the expected time is the average time the
     task would require if the task were repeated on a number of occasions over
@@ -82,7 +85,7 @@ def std(o, p):
 
 
 def var(o, p):
-    """Variation
+    """Variation.
 
     ::
 
@@ -100,7 +103,7 @@ def var(o, p):
 
 
 def estimate(o, p, m):
-    """Create a estimation for a set of values
+    """Create a estimation for a set of values.
 
     # 68.2%, 95.4%, 99.7%
     r68, r95, r99 = estimate([1, 2], [3, 4], [5, 6])
