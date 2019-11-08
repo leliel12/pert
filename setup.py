@@ -31,8 +31,10 @@ from setuptools import setup, find_packages  # noqa
 
 REQUIREMENTS = ["numpy"]
 
+
 with open("README.md") as fp:
     LONG_DESCRIPTION = fp.read()
+
 
 DESCRIPTION = LONG_DESCRIPTION.splitlines()[2]
 
