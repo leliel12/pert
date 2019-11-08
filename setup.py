@@ -46,7 +46,7 @@ DESCRIPTION = LONG_DESCRIPTION.splitlines()[2]
 def do_setup():
     setup(
         name="pert",
-        version="2019.8",
+        version="2019.11",
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         long_description_content_type='text/markdown',

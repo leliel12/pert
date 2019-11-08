@@ -30,7 +30,7 @@ author = 'Juan BC'
 # built documents.
 #
 # The short X.Y version.
-version = pert.__version__
+version = "2019.11"
 # The full version, including alpha/beta/rc tags.
 release = version
 
